@@ -1,0 +1,49 @@
+{
+  "name": "quit-drinking-star",
+  "version": "1.0.0",
+  "description": "戒酒星球 - AI驱动的3D戒酒应用",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && node deploy.js"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "pinia": "^2.1.6",
+    "three": "^0.155.0",
+    "gsap": "^3.12.2",
+    "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.5.0",
+    "element-plus": "^2.3.12",
+    "@element-plus/icons-vue": "^2.1.0",
+    "echarts": "^5.4.3",
+    "vue-echarts": "^6.6.1",
+    "howler": "^2.2.3",
+    "lottie-web": "^5.12.2",
+    "dayjs": "^1.11.9",
+    "qrcode": "^1.5.3",
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "typescript": "^5.2.2",
+    "vue-tsc": "^1.8.8",
+    "@types/three": "^0.155.0",
+    "sass": "^1.66.1",
+    "autoprefixer": "^10.4.15",
+    "tailwindcss": "^3.3.3"
+  },
+  "keywords": [
+    "戒酒",
+    "AI",
+    "3D",
+    "健康",
+    "小程序"
+  ],
+  "author": "戒酒星球团队",
+  "license": "MIT"
+}
